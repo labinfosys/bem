@@ -1,0 +1,14 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "Исходники к лекции по БЭМ",
+  "main": "index.js",
+  "repository": "git@github.com:labinfosys/bem.git",
+  "author": "Sergey Karaichev <sk@labinfosys.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
