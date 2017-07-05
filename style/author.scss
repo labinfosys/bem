@@ -1,0 +1,11 @@
+.author {
+    width: 200px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightblue;
+    &__name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

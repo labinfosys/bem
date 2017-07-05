@@ -1,0 +1,39 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    &__avatar {
+        width: 50px !important; 
+        height: 50px !important;
+        position: absolute;
+        top: 145px;
+        left: 145px;
+    }
+    &__item {
+        position: relative;
+        padding: 10px;
+        margin: 0 10px 10px 0;
+        border: 1px solid lightgray;
+        &_disabled {
+            opacity: .5;
+        }
+    }
+    &__image {
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        img {
+            height: 200px;
+        }
+    }
+    &__description {
+        margin-top: 5px;
+        text-align: center;
+    }
+    &_theme_forest {
+        & .gallery {
+            &__item {
+                background: #458845;
+            }
+        }
+    }
+}
